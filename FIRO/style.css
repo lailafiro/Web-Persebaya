@@ -1,811 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-*{
-margin: 0;
-padding: 0;
-list-style: none;
-text-decoration: none;
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
 }
-
-body{
-font-family: 'Roboto', sans-serif;
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
 }
-
-a.btn-rounded-full.bg-black {
-color: #7684FF;
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
 }
-
-a.btn-rounded-full.bg-white {
-color: rgb(255, 255, 255);
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
 }
-
-a.btn-rounded-full.bg-yellow {
-color: black;
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
 }
-
-.HEADER{
-    /* Rectangle 1 */
-position: absolute;
-width: 1440px;
-height: 129px;
-left: 0px;
-top: 0px;
+.list-item {
+  display: list-item;
 }
-
-.LOGO{
-/* logo 1 */
-position: absolute;
-width: 79px;
-height: 93px;
-left: 73px;
-top: 18px;
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
 }
-
-
-.HOME{
-/* HOME */
-position: absolute;
-width: 74px;
-height: 29px;
-left: 214px;
-top: 45px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
 }
-
-.BERITA{
-/* BERITA */
-position: absolute;
-width: 87px;
-height: 29px;
-left: 386px;
-top: 45px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-}
-
-.TIM{
-/* TIM */
-position: absolute;
-width: 46px;
-height: 29px;
-left: 571px;
-top: 45px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-}
-
-.PERTANDINGAN{
-/* PERTANDINGAN */
-position: absolute;
-width: 193px;
-height: 29px;
-left: 715px;
-top: 45px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-}
-
-.CLUB{
-/* CLUB */
-position: absolute;
-width: 66px;
-height: 29px;
-left: 1006px;
-top: 45px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-}
-
-.GALLERY{
-/* GALLERY */
-position: absolute;
-width: 112px;
-height: 29px;
-left: 1170px;
-top: 45px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-}
-
-
-.BODY{
-/* Photo Gallery */
-position: absolute;
-width: 361px;
-height: 42px;
-left: 0px;
-top: 189px;
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-
-color: #000000;
-}
-
-.LINE{
-/* Line 1 */
-position: absolute;
-width: 936px;
-height: 0px;
-left: 361px;
-top: 217px;
-
-border: 1px solid #000000;
-transform: rotate(-0.12deg);
-}
-
-.GAMBAR1{
-/* Rectangle 21 */
-position: absolute;
-width: 613px;
-height: 422px;
-left: 55px;
-top: 310px;
-
-background: url(p766-DSC01129.jpg);
-} 
-
-.TEXT1{
-/* Galeri Pertandingan PSM vs Persebaya Sabtu, 10 September 2022 */
-position: absolute;
-width: 207px;
-height: 140px;
-left: 241px;
-top: 458px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.GAMBAR2{
-/* Rectangle 20 */
-position: absolute;
-width: 613px;
-height: 422px;
-left: 765px;
-top: 310px;
-
-background: url(p806-_RZL1161.jpg);
-
-}
-    
-.TEXT2{
-/* Galeri Pertandingan Arema FC vs Persebaya| BRI Liga 1 Musim 2022/2023 */
-position: absolute;
-width: 202px;
-height: 140px;
-left: 997px;
-top: 468px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}    
- 
-.GAMBAR3{
-/* Rectangle 22 */
-position: absolute;
-width: 613px;
-height: 422px;
-left: 55px;
-top: 795px;
-
-background: url(p796-_RZL0715.jpg);
-}
-.TEXT3{
-/* Official Training Arema FC vs Persebaya Jum’at, 30 September 2022 */
-
-
-position: absolute;
-width: 212px;
-height: 140px;
-left: 232px;
-top: 922px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;    
-} 
-
-.GAMBAR4{
-/* Rectangle 23 */
-position: absolute;
-width: 613px;
-height: 422px;
-left: 765px;
-top: 795px;
-}
-
-.TEXT4{
-/* Galeri Pertandingan Persebaya vs Rans Nusantara | BRI Liga 1 Musim 2022/2023 */
-position: absolute;
-width: 199px;
-height: 140px;
-left: 990px;
-top: 912px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.GAMBAR5{
-/* Rectangle 24 */
-position: absolute;
-width: 613px;
-height: 422px;
-left: 55px;
-top: 1280px;
-
-background: url(p765-DSC00463.jpg);
-}
-
-.TEXT5{
-/* Official Training PSM vs Persebaya Jum’at, 9 September 2022 */
-position: absolute;
-width: 212px;
-height: 105px;
-left: 235px;
-top: 1404px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.GAMBAR6{
-/* Rectangle 25 */
-
-
-position: absolute;
-width: 613px;
-height: 422px;
-left: 765px;
-top: 1280px;
-
-background: url(p785-_RZL0926.jpg);
-}
-
-.TEXT6{
-/* Official Training Persebaya vs Rans Nusantara Rabu, 14 September 2022 */
-position: absolute;
-width: 191px;
-height: 140px;
-left: 994px;
-top: 1386px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 35px;
-/* or 175% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-}
-.GROUP1{
-/* Group 6 */
-position: absolute;
-width: 63px;
-height: 62px;
-left: 232px;
-top: 1738px;
-}
-.BOX1{
-/* Rectangle 27 */
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 316px;
-top: 1737px;
-
-background: #007BFF;
-border: 1px solid #036933;
-}
-.SATU{
-/* 1 */
-
-
-position: absolute;
-width: 10px;
-height: 24px;
-left: 342px;
-top: 1756px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.BOX2{
-/* Rectangle 28 */
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 400px;
-top: 1738px;
-
-background: #FFFFFF;
-border: 1px solid #036933;
-}
-.DUA{
-/* 2 */
-position: absolute;
-width: 13px;
-height: 24px;
-left: 425px;
-top: 1757px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-.BOX3{
-/* Rectangle 29 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 484px;
-top: 1738px;
-
-background: #FFFFFF;
-border: 1px solid #036933;  
-}
-.TIGA{
-/* 3 */
-
-
-position: absolute;
-width: 14px;
-height: 24px;
-left: 508px;
-top: 1757px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-
-.BOX4{
-/* Rectangle 30 */
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 568px;
-top: 1737px;
-
-background: #FFFFFF;
-border: 1px solid #036933;
-}
-.EMPAT{
-/* 4 */
-
-
-position: absolute;
-width: 14px;
-height: 24px;
-left: 592px;
-top: 1756px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-
-.BOX5{
-/* Rectangle 31 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 652px;
-top: 1737px;
-
-background: #FFFFFF;
-border: 1px solid #036933;
-}
-.LIMA{
-/* 5 */
-position: absolute;
-width: 14px;
-height: 24px;
-left: 676px;
-top: 1756px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-.BOX6{
-/* Rectangle 32 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 736px;
-top: 1737px;
-
-background: #FFFFFF;
-border: 1px solid #036933;
-}
-.ENAM{
-/* 6 */
-position: absolute;
-width: 14px;
-height: 24px;
-left: 760px;
-top: 1756px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-
-.BOX7{
-/* Rectangle 33 */
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 820px;
-top: 1738px;
-
-background: #FFFFFF;
-border: 1px solid #036933;  
-}
-.TUJUH{
-/* 7 */
-
-
-position: absolute;
-width: 13px;
-height: 24px;
-left: 845px;
-top: 1757px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;  
-}
-
-.BOX8{
-/* Rectangle 39 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 904px;
-top: 1737px;
-
-background: #FFFFFF;
-border: 1px solid #036933;
-}
-.DELAPAN{
-/* 8 */
-position: absolute;
-width: 14px;
-height: 24px;
-left: 928px;
-top: 1756px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-.BOX9{
-/* Rectangle 34 */
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 988px;
-top: 1738px;
-
-background: #FFFFFF;
-border: 1px solid #036933;   
-}
-.SEMBILAN{
-/* 9 */
-
-
-position: absolute;
-width: 14px;
-height: 24px;
-left: 1012px;
-top: 1757px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;
-}
-
-.BOX10{
-/* Rectangle 35 */
-box-sizing: border-box;
-
-position: absolute;
-width: 63px;
-height: 62px;
-left: 1072px;
-top: 1738px;
-
-background: #FFFFFF;
-border: 1px solid #036933;
-}
-.SEPULUH{
-/* 10 */
-
-
-position: absolute;
-width: 25px;
-height: 24px;
-left: 1091px;
-top: 1757px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #036933;  
-}
-
-.GROUP2{
-/* Group 7 */
-position: absolute;
-width: 63px;
-height: 62px;
-left: 1156px;
-top: 1737px;
-}
-.FOOTER{
-/* Rectangle 20 */
-position: absolute;
-width: 1440px;
-height: 479px;
-left: 0px;
-top: 1835px;
-
-background: #000000;
-}
-.PARTNER{
- /* Official Partner : */
-position: absolute;
-width: 130px;
-height: 19px;
-left: 655px;
-top: 1899px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 16px;
-line-height: 19px;
-
-color: #FFFFFF;  
-}
-.IKLAN1{
-/* sponsor-kapal-api-v2 (1) 2 */
-position: absolute;
-width: 150px;
-height: 155px;
-left: 101px;
-top: 1920px;
-}
-.IKLAN2{
-    /* Kings Wallet BW */
-position: absolute;
-width: 131px;
-height: 152px;
-left: 290px;
-top: 1923px;
-}
-.IKLAN3{
-    /* EXTRA JOSS BW */
-position: absolute;
-width: 228px;
-height: 43px;
-left: 455px;
-top: 1977px;
-}
-.IKLAN4{
-    /* MPM HONDA BW */
-position: absolute;
-width: 152px;
-height: 46px;
-left: 728px;
-top: 1977px;
-}
-.IKLAN5{
-    /* sponsor-ums-white */
-position: absolute;
-width: 212px;
-height: 49px;
-left: 917px;
-top: 1977px;
-}
-.IKLAN6{
-    /* NUSANET BW */
-position: absolute;
-width: 164px;
-height: 44px;
-left: 1153px;
-top: 1976px;
-}
-.IKLAN7{
-/* FLASH FIT BW */
-position: absolute;
-width: 134px;
-height: 86px;
-left: 397px;
-top: 2131px;
-}
-.IKLAN8{
-    /* sponsor-surya-white-v2 */
-position: absolute;
-width: 170px;
-height: 77px;
-left: 563px;
-top: 2140px;
-}
-.IKLAN9{
-    /* TRIBUN NEWS BW */
-position: absolute;
-width: 276px;
-height: 74px;
-left: 767px;
-top: 2131px;
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
 }
