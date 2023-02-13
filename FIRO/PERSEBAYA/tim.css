@@ -1,0 +1,1641 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+body{
+font-family: 'inter';
+}
+
+a.btn-rounded-full.bg-black {
+    color: #000000;
+    }
+    
+    a.btn-rounded-full.bg-green {
+        color: #0C8544;
+    }
+    a.btn-rounded-full.bg-white {
+        color: #ffffff;
+    }
+
+.HIJAU{
+    position: absolute;
+width: 1200px;
+height: 3187px;
+left: 118px;
+top: 0px;
+
+}
+
+.LOGO{
+    position: absolute;
+    width: 89px;
+    height: 99px;
+    left: 172px;
+    top: 15px;  
+}
+
+.HOME{
+    position: absolute;
+    width: 49px;
+    height: 19px;
+    left: 341px;
+    top: 50px;
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+}
+
+.BERITA{
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 470px;
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.TIM{
+    position: absolute;
+width: 30px;
+height: 19px;
+left: 607px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+}
+
+
+.PERTANDINGAN{
+    position: absolute;
+width: 128px;
+height: 19px;
+left: 717px;
+top: 50px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+}
+
+.CLUB{
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 970px;
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.GALLERY{
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 1100px;
+    top: 50px;
+    
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+}
+
+
+
+
+.JUDULGOAL{
+    position: absolute;
+    width: 133px;
+    height: 24px;
+    left: 172px;
+    top: 217px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.PSBY{
+    position: absolute;
+    width: 610px;
+    height: 65px;
+    left: 172px;
+    top: 165px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.GOAL{
+    position: absolute;
+width: 133px;
+height: 24px;
+left: 172px;
+top: 217px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+
+.ABU{
+    position: absolute;
+width: 825px;
+height: 389px;
+left: 172px;
+top: 257px;
+    }
+
+.SAT{
+    position: absolute;
+    width: 138px;
+    height: 173px;
+    left: 167px;
+    top: 264px;
+}
+
+.NAME1{
+    position: absolute;
+    width: 122px;
+    height: 22px;
+    left: 295px;
+    top: 328px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.NAME1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 295px;
+    top: 373px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.ABU2{
+    position: absolute;
+width: 254px;
+height: 181px;
+left: 455px;
+top: 257px;
+}
+
+.GEDE{
+    position: absolute;
+width: 140px;
+height: 175px;
+left: 448px;
+top: 263px;
+}
+
+.NAME2{
+    position: absolute;
+    width: 106px;
+    height: 44px;
+    left: 587px;
+    top: 314px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.NAME2-2{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 587px;
+top: 383px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+
+.ERNA{
+    position: absolute;
+    width: 131px;
+    height: 163px;
+    left: 741px;
+    top: 269px;
+}
+
+.NAME3{
+    position: absolute;
+width: 102px;
+height: 66px;
+left: 884px;
+top: 303px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.NAME3-3{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 884px;
+    top: 394px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.ANDHI{
+    position: absolute;
+    width: 138px;
+    height: 173px;
+    left: 172px;
+    top: 473px;    
+}
+
+.NAME4{
+    position: absolute;
+    width: 112px;
+    height: 44px;
+    left: 299px;
+    top: 513px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;    
+}
+
+.NAME4-4{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 299px;
+    top: 582px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.ADIT{
+    position: absolute;
+    width: 128px;
+    height: 160px;
+    left: 455px;
+    top: 486px;
+}
+
+.NAME5{
+    position: absolute;
+    width: 121px;
+    height: 22px;
+    left: 582px;
+    top: 528px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.NAME5-5{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 582px;
+    top: 573px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.DEF{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    left: 172px;
+    top: 675px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.BGABU2{
+    position: absolute;
+width: 825px;
+height: 597px;
+left: 172px;
+top: 715px;
+}
+
+.LEO{
+    position: absolute;
+    width: 138px;
+    height: 173px;
+    left: 157px;
+    top: 723px;
+    
+}
+
+.LEO1{
+    position: absolute;
+width: 88px;
+height: 22px;
+left: 295px;
+top: 784px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.LEO1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 295px;
+    top: 831px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.RIZKY{
+    position: absolute;
+    width: 127px;
+    height: 164px;
+    left: 460px;
+    top: 732px;
+}
+
+.RIZ1{
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    left: 587px;
+    top: 772px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.RIZ1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 587px;
+    top: 841px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.AL{
+    position: absolute;
+width: 131px;
+height: 163px;
+left: 748px;
+top: 733px;
+}
+
+.AL1{
+    position: absolute;
+width: 76px;
+height: 44px;
+left: 883px;
+top: 772px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.AL1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 883px;
+top: 841px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.MUH{
+    position: absolute;
+    width: 138px;
+    height: 173px;
+    left: 173px;
+    top: 931px;    
+}
+
+.MUH1{
+    position: absolute;
+    width: 120px;
+    height: 66px;
+    left: 299px;
+    top: 962px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;    
+}
+
+.MUH1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 299px;
+    top: 1054px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.KOKO{
+    position: absolute;
+    width: 128px;
+    height: 160px;
+    left: 460px;
+    top: 944px;
+    
+}
+
+.KOKO1{
+    position: absolute;
+    width: 90px;
+    height: 44px;
+    left: 596px;
+    top: 978px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+.KOKO1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 596px;
+    top: 1045px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.ARIEF{
+    position: absolute;
+    width: 131px;
+    height: 163px;
+    left: 748px;
+    top: 940px;
+}
+
+.ARIEF1{
+    position: absolute;
+    width: 118px;
+    height: 44px;
+    left: 871px;
+    top: 984px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.ARIEF1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 871px;
+    top: 1051px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.RISWAN{
+    position: absolute;
+    width: 138px;
+    height: 173px;
+    left: 173px;
+    top: 1139px;
+    
+}
+
+.RIS1{
+    position: absolute;
+    width: 72px;
+    height: 44px;
+    left: 315px;
+    top: 1189px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.RIS1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 315px;
+    top: 1256px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.ARIZ{
+    position: absolute;
+    width: 128px;
+    height: 160px;
+    left: 460px;
+    top: 1152px;
+    
+}
+
+.ARIZ1{
+    position: absolute;
+    width: 70px;
+    height: 66px;
+    left: 599px;
+    top: 1179px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.ARIZ1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 599px;
+    top: 1268px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.MID{
+    position: absolute;
+width: 120px;
+height: 24px;
+left: 172px;
+top: 1348px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+}
+
+.BGABU3{
+    position: absolute;
+width: 825px;
+height: 1021px;
+left: 172px;
+top: 1388px;
+}
+
+.DICKY{
+    position: absolute;
+width: 138px;
+height: 173px;
+left: 165px;
+top: 1395px;
+}
+
+.DIC1{
+    position: absolute;
+    width: 111px;
+    height: 44px;
+    left: 299px;
+    top: 1435px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+.DIC1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 299px;
+    top: 1504px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.HIDAYAT{
+    position: absolute;
+    width: 127px;
+    height: 164px;
+    left: 458px;
+    top: 1405px;
+}
+
+.HID1{
+    position: absolute;
+    width: 115px;
+    height: 44px;
+    left: 587px;
+    top: 1445px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.HID1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 587px;
+    top: 1514px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.MARSELINO{
+    position: absolute;
+width: 122px;
+height: 163px;
+left: 748px;
+top: 1405px;
+}
+
+.MAR1{
+    position: absolute;
+    width: 111px;
+    height: 44px;
+    left: 883px;
+    top: 1445px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+      
+}
+
+.MAR1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 883px;
+    top: 1514px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px; 
+}
+
+.ANDRE{
+    position: absolute;
+width: 133px;
+height: 164px;
+left: 158px;
+top: 1612px;
+
+}
+
+.AND1{
+    position: absolute;
+    width: 142px;
+    height: 44px;
+    left: 281px;
+    top: 1643px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.AND1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 281px;
+    top: 1714px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.JOSE{
+position: absolute;
+width: 128px;
+height: 160px;
+left: 460px;
+top: 1617px;
+}
+
+.JOS1{
+    position: absolute;
+width: 117px;
+height: 66px;
+left: 586px;
+top: 1644px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+}
+
+.JOS1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 588px;
+top: 1728px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.BRYLIAN{
+    position: absolute;
+width: 131px;
+height: 163px;
+left: 748px;
+top: 1613px;
+}
+
+.BRY1{
+    position: absolute;
+width: 78px;
+height: 44px;
+left: 871px;
+top: 1657px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.BRY1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 871px;
+top: 1724px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.RISKY{
+    position: absolute;
+width: 138px;
+height: 173px;
+left: 173px;
+top: 1812px;
+}
+
+.KY1{
+    position: absolute;
+    width: 74px;
+    height: 44px;
+    left: 315px;
+    top: 1862px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+     
+}
+
+.KY1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 315px;
+top: 1929px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.ALWI{
+    position: absolute;
+    width: 131px;
+    height: 163px;
+    left: 451px;
+    top: 1822px;
+}
+
+.AL1{
+    position: absolute;
+    width: 126px;
+    height: 44px;
+    left: 577px;
+    top: 1858px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+.AL1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 577px;
+    top: 1932px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.DENI {
+position: absolute;
+width: 138px;
+height: 173px;
+left: 743px;
+top: 1812px;
+}
+
+.DEN1{
+    position: absolute;
+width: 98px;
+height: 22px;
+left: 871px;
+top: 1884px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.DEN1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 871px;
+    top: 1932px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;  
+}
+
+.WAHYU{
+    position: absolute;
+    width: 128px;
+    height: 160px;
+    left: 173px;
+    top: 2040px;
+}
+
+.WAH1{
+    position: absolute;
+    width: 88px;
+    height: 22px;
+    left: 299px;
+    top: 2104px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.WAH1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 299px;
+    top: 2151px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.BRAM{
+    position: absolute;
+    width: 131px;
+    height: 163px;
+    left: 455px;
+    top: 2037px;
+}
+
+.BRAM1{
+    position: absolute;
+    width: 97px;
+    height: 22px;
+    left: 599px;
+    top: 2097px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.BRAM1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 596px;
+    top: 2142px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.RUY{
+    position: absolute;
+    width: 138px;
+    height: 173px;
+    left: 738px;
+    top: 2027px;
+}
+
+.RUY1{
+    position: absolute;
+    width: 82px;
+    height: 44px;
+    left: 871px;
+    top: 2081px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.RUY1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 871px;
+    top: 2148px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.MIC{
+    position: absolute;
+    width: 128px;
+    height: 160px;
+    left: 178px;
+    top: 2249px;
+}
+
+.MIC1{
+    position: absolute;
+    width: 83px;
+    height: 44px;
+    left: 315px;
+    top: 2286px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.MIC1-1{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 315px;
+    top: 2353px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.PON{
+    position: absolute;
+width: 128px;
+height: 160px;
+left: 455px;
+top: 2249px;
+}
+
+.PON1{
+    position: absolute;
+width: 91px;
+height: 44px;
+left: 599px;
+top: 2294px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.PON1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 599px;
+top: 2365px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.DER{
+  
+position: absolute;
+width: 106px;
+height: 24px;
+left: 172px;
+top: 2453px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+}
+
+.BGABU4{
+    position: absolute;
+width: 825px;
+height: 597px;
+left: 172px;
+top: 2493px;
+}
+
+
+
+.PAUL{
+    position: absolute;
+width: 138px;
+height: 173px;
+left: 157px;
+top: 2500px;
+}
+
+.PAUL1{
+    position: absolute;
+width: 69px;
+height: 44px;
+left: 295px;
+top: 2555px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.PAUL1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 295px;
+top: 2621px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.AMD{
+    position: absolute;
+width: 127px;
+height: 164px;
+left: 458px;
+top: 2510px;
+}
+
+.AMD1{
+    position: absolute;
+width: 113px;
+height: 44px;
+left: 587px;
+top: 2550px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.AMD1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 587px;
+top: 2619px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.SUP{
+    position: absolute;
+width: 131px;
+height: 163px;
+left: 748px;
+top: 2510px;
+
+}
+
+.SUP1{
+    position: absolute;
+width: 115px;
+height: 44px;
+left: 869px;
+top: 2550px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+}
+
+.SUP1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 871px;
+top: 2619px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+
+.SHO{
+    position: absolute;
+width: 138px;
+height: 173px;
+left: 173px;
+top: 2709px;
+}
+
+.SHO1{
+    position: absolute;
+width: 109px;
+height: 44px;
+left: 310px;
+top: 2752px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.SHO1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 308px;
+top: 2826px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.M{
+    position: absolute;
+width: 128px;
+height: 160px;
+left: 460px;
+top: 2722px;
+}
+
+.M1{
+    position: absolute;
+    width: 75px;
+    height: 44px;
+    left: 596px;
+    top: 2756px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px; 
+}
+
+.M1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 596px;
+top: 2823px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.SAIFUL{
+    position: absolute;
+width: 131px;
+height: 163px;
+left: 748px;
+top: 2718px;
+}
+
+.SAIF1{
+    position: absolute;
+width: 64px;
+height: 22px;
+left: 870px;
+top: 2785px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.SAIF1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 871px;
+top: 2829px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.JAN{
+    position: absolute;
+width: 138px;
+height: 173px;
+left: 173px;
+top: 2917px;
+}
+
+.JAN1{
+    position: absolute;
+width: 75px;
+height: 44px;
+left: 315px;
+top: 2967px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+}
+
+.JAN1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 315px;
+top: 3034px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.JUL{
+    position: absolute;
+width: 128px;
+height: 160px;
+left: 460px;
+top: 2930px;
+}
+
+.JUL1{
+    position: absolute;
+    width: 80px;
+    height: 44px;
+    left: 599px;
+    top: 2978px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;  
+}
+
+.JUL1-1{
+    position: absolute;
+width: 106px;
+height: 19px;
+left: 599px;
+top: 3046px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+
+.HTM{
+    position: absolute;
+width: 1608px;
+height: 410px;
+left: 0px;
+top: 3135px;
+}
+
+.ofi{
+    
+    position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 739px;
+    top: 3194px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+}
+
+.KPL{
+    position: absolute;
+    width: 150px;
+    height: 155px;
+    left: 185px;
+    top: 3220px;    
+}
+
+.MAH{
+    position: absolute;
+width: 131px;
+height: 152px;
+left: 374px;
+top: 3223px;
+}
+
+.EX{
+   
+position: absolute;
+width: 228px;
+height: 43px;
+left: 539px;
+top: 3277px;
+}
+
+.HON{
+    position: absolute;
+    width: 152px;
+    height: 46px;
+    left: 812px;
+    top: 3277px;
+}
+
+.SBY{
+    position: absolute;
+    width: 212px;
+    height: 49px;
+    left: 1001px;
+    top: 3277px;
+}
+
+.NUSA{
+    position: absolute;
+    width: 164px;
+    height: 44px;
+    left: 1237px;
+    top: 3276px;
+    
+}
+
+.LING{
+    position: absolute;
+    width: 134px;
+    height: 86px;
+    left: 481px;
+    top: 3384px;
+    
+}
+
+.SURYA{
+    position: absolute;
+    width: 170px;
+    height: 77px;
+    left: 647px;
+    top: 3393px;
+}
+
+.JTM{
+    position: absolute;
+    width: 276px;
+    height: 74px;
+    left: 851px;
+    top: 3384px;
+}
+
