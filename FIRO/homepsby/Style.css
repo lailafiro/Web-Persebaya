@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+body{
+font-family: 'inter';
+}
+
+a.btn-rounded-full.bg-white {
+    color: #ffffff;
+}
+
+a.btn-rounded-full.bg-black {
+    color: #000000;
+    }
+    
+    a.btn-rounded-full.bg-green {
+        color: #0C8544;
+    }
+    
+
+.HEADER{
+    /* Rectangle 1 */
+position: absolute;
+width: 1440px;
+height: 129px;
+left: 0px;
+top: 0px;
+}
+
+.LOGO{
+/* logo 1 */
+position: absolute;
+width: 79px;
+height: 93px;
+left: 73px;
+top: 18px;
+}
+
+
+.HOME{
+/* HOME */
+position: absolute;
+width: 74px;
+height: 29px;
+left: 214px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+}
+
+.BERITA{
+/* BERITA */
+position: absolute;
+width: 87px;
+height: 29px;
+left: 386px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+}
+
+.TIM{
+/* TIM */
+position: absolute;
+width: 46px;
+height: 29px;
+left: 571px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+}
+
+.PERTANDINGAN{
+/* PERTANDINGAN */
+position: absolute;
+width: 193px;
+height: 29px;
+left: 715px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+}
+
+.CLUB{
+/* CLUB */
+position: absolute;
+width: 66px;
+height: 29px;
+left: 1006px;
+top: 45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+}
+
+.GambarAtas{
+ /* image 45 */
+position: absolute;
+width: 1285px;
+height: 356px;
+left: 77px;
+top: 156px;  
+}
+
+.GAMBAR1{
+    /* Rectangle 77 */
+position: absolute;
+width: 478px;
+height: 516px;
+left: 60px;
+top: 564px;
+}
+
+.satu{
+    position: absolute;
+    width: 142px;
+    height: 58px;
+    left: 228px;
+    top: 579px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+
+}
+
+.Line1{
+    /* Line 2 */
+position: absolute;
+width: 478px;
+height: 0px;
+left: 60px;
+top: 654px;
+}
+
+.dua{
+    /* Persebaya Junior */
+position: absolute;
+width: 413px;
+height: 58px;
+left: 93px;
+top: 678px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+}
+
+.Line2{
+    /* Line 3 */
+position: absolute;
+width: 478px;
+height: 0px;
+left: 60px;
+top: 760px;
+}
+
+.tiga{
+/* Fans */
+position: absolute;
+width: 114px;
+height: 58px;
+left: 242px;
+top: 780px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+}
+
+.Line3{
+    position: absolute;
+width: 478px;
+height: 0px;
+left: 60px;
+top: 858px;
+}
+
+.empat{
+    /* Jadwal */
+position: absolute;
+width: 170px;
+height: 58px;
+left: 210px;
+top: 889px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+}
+
+.Line4{
+    position: absolute;
+width: 478px;
+height: 0px;
+left: 60px;
+top: 974px;
+}
+
+.lima{
+    position: absolute;
+width: 184px;
+height: 58px;
+left: 207px;
+top: 1001px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+}
+
+.GambarAji{
+    /* Group 5 */
+position: absolute;
+width: 708px;
+height: 486px;
+left: 617px;
+top: 579px;
+
+}
+
+.OfficialPartner{
+    /* Official Partner */
+position: absolute;
+width: 293px;
+height: 48px;
+left: 574px;
+top: 1142px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+}
+
+.Gambariklan{
+    /* Rectangle 80 */
+position: absolute;
+width: 1172px;
+height: 209px;
+left: 134px;
+top: 1190px;
+
+}
+
+.Ractangle{
+    /* Rectangle 84 */
+position: absolute;
+width: 422px;
+height: 68px;
+left: 46px;
+top: 1446px;
+
+}
+
+.persebaya{
+    /* Persebaya */
+position: absolute;
+width: 251px;
+height: 58px;
+left: 82px;
+top: 1447px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+}
+
+.Gambar12{
+    /* Group 9 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: 46px;
+top: 1552px;
+}
+
+.shadow{
+/* Rectangle 85 */
+position: absolute;
+width: 406px;
+height: 59px;
+left: 46px;
+top: 1773px;
+}
+
+.Dani{
+    position: absolute;
+width: 309px;
+height: 40px;
+left: 61px;
+top: 1783px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+
+color: #000000;
+}
+
+.gambar13{
+    /* Group 10 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: 528px;
+top: 1552px;
+
+}
+
+.shadow2{
+    /* Rectangle 86 */
+position: absolute;
+width: 406px;
+height: 59px;
+left: 528px;
+top: 1772px;
+}
+
+.Rumere{
+    position: absolute;
+width: 352px;
+height: 40px;
+left: 544px;
+top: 1782px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.Gambar14{
+    /* Group 14 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: 994px;
+top: 1552px;
+}
+
+.shadow3{
+    /* Rectangle 87 */
+position: absolute;
+width: 406px;
+height: 59px;
+left: 994px;
+top: 1773px;
+
+background: rgba(217, 217, 217, 0.8);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Psis{
+    position: absolute;
+width: 357px;
+height: 20px;
+left: 1002px;
+top: 1784px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.Ractangle1{
+    /* Group 12 */
+position: absolute;
+width: 482px;
+height: 68px;
+left: 46px;
+top: 1914px;
+}
+
+.Persebayajunior{
+    position: absolute;
+    width: 413px;
+    height: 58px;
+    left: 58px;
+    top: 1915px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.gambar15{
+    /* Group 15 */
+position: absolute;
+width: 412px;
+height: 280px;
+left: 46px;
+top: 2010px;
+
+}
+
+.shadow4{
+    /* Rectangle 85 */
+position: absolute;
+width: 406px;
+height: 59px;
+left: 46px;
+top: 2231px;
+}
+
+.Persebayau16{
+    /* Persebaya U-16 Susul Tim U-18 Ke Semi Final EPA */
+position: absolute;
+width: 410px;
+height: 40px;
+left: 48px;
+top: 2241px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.gambar16{
+    /* Group 16 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: 528px;
+top: 2010px;
+}
+
+.shadow5{
+    /* Rectangle 85 */
+position: absolute;
+width: 406px;
+height: 59px;
+left: 528px;
+top: 2231px;
+
+}
+
+.Persebayau18{
+    position: absolute;
+width: 374px;
+height: 40px;
+left: 543px;
+top: 2241px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.gambar17{
+    /* Group 17 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: 994px;
+top: 2010px;
+
+}
+
+.shadow6{
+/* Rectangle 85 */
+position: absolute;
+width: 406px;
+height: 59px;
+left: 994px;
+top: 2231px;
+}
+
+.bersaing{
+    position: absolute;
+width: 296px;
+height: 40px;
+left: 1009px;
+top: 2241px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.Ractangle2{
+    position: absolute;
+width: 482px;
+height: 68px;
+left: 46px;
+top: 2358px;
+
+}
+
+.pskota{
+    position: absolute;
+width: 419px;
+height: 58px;
+left: 58px;
+top: 2359px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+}
+
+.gambar18{
+    /* Rectangle 81 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: 48px;
+top: 2464px;
+}
+
+.shadow7{
+    position: absolute;
+width: 406px;
+height: 59px;
+left: 48px;
+top: 2685px;
+}
+
+.pskopa{
+    position: absolute;
+width: 410px;
+height: 40px;
+left: 54px;
+top: 2695px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.gambar19{
+    position: absolute;
+width: 417px;
+height: 280px;
+left: 528px;
+top: 2464px;
+
+}
+
+.shadow8{
+    position: absolute;
+    width: 406px;
+    height: 59px;
+    left: 528px;
+    top: 2685px;
+}
+
+.peluang{
+    position: absolute;
+width: 410px;
+height: 20px;
+left: 535px;
+top: 2704px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 82.52%;
+}
+
+.gambar20{
+    position: absolute;
+width: 406px;
+height: 280px;
+left: 988px;
+top: 2464px;
+}
+    
+.shadow9{
+    position: absolute;
+width: 406px;
+height: 59px;
+left: 988px;
+top: 2685px;
+}
+
+
+.HTM{
+    /* Rectangle 81 */
+position: absolute;
+width: 406px;
+height: 280px;
+left: -535px;
+top:100px;
+}
+
+.spon{
+    position: absolute;
+width: 406px;
+height: 280px;
+left: -535px;
+top:180px;
+}
